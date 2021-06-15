@@ -4,7 +4,7 @@ from controller.modules.user import user_blu
 from controller.utils.camera import VideoCamera
 
 
-# 登录
+# Log in
 @user_blu.route("/login", methods=["GET", "POST"])
 def login():
     username = session.get("username")
@@ -14,32 +14,32 @@ def login():
 
     if request.method == "GET":
         return render_template("login.html")
-    # 获取参数
+    # Get parameters
     username = request.form.get("username")
     password = request.form.get("password")
-    # 校验参数
+    # Check parameters
     if not all([username, password]):
-        return render_template("login.html", errmsg="参数不足")
+        return render_template("login.html", errmsg="Insufficient parameters")
 
-    # 校验对应的管理员用户数据
+    # Verify the corresponding administrator user data
     if username == "admin" and password == "admin":
-        # 验证通过
+        # Verification passed
         session["username"] = username
         return redirect(url_for("home.index"))
 
-    return render_template("login.html", errmsg="用户名或密码错误")
+    return render_template("login.html", errmsg="Username or password is wrong")
 
 
-# 退出登录
+# Sign Out
 @user_blu.route("/logout")
 def logout():
-    # 删除session数据
+    # Delete session data
     session.pop("username", None)
-    # 返回登录页面
+    # Return to login page
     return redirect(url_for("user.login"))
 
 
-# 录制状态
+# Recording status
 @user_blu.route('/record_status', methods=['POST'])
 def record_status():
     global video_camera

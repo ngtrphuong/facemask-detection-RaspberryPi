@@ -3,28 +3,28 @@ from datetime import timedelta
 
 
 class Config:
-    # 调试模式
+    # DEBUG Mode
     DEBUG = True
-    # session加密秘钥
+    # session encryption key
     SECRET_KEY = "fM3PEZwSRcbLkk2Ew82yZFffdAYsNgOddWoANdQo/U3VLZ/qNsOKLsQPYXDPon2t"
-    # session过期时间
+    # session expiration time
     PERMANENT_SESSION_LIFETIME = timedelta(days=7)
 
 
 class DevelopmentConfig(Config):
-    # 开发模式配置
+    # Development mode configuration
     DEBUG = True
     LOG_LEVEL = logging.DEBUG
 
 
 class ProductionConfig(Config):
-    # 上线配置
-    # 关闭调试
+    # Online configuration
+    # Turn off debugging
     DEBUG = False
-    LOG_LEVEL = logging.ERROR  # 日志级别
+    LOG_LEVEL = logging.ERROR  # Log level
 
 
-# 配置字典，键：配置
+# Configuration dictionary, key: configuration
 config_dict = {
     'dev': DevelopmentConfig,
     'pro': ProductionConfig

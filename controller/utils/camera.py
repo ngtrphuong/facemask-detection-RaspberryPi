@@ -27,14 +27,14 @@ anchors = generate_anchors(feature_map_sizes, anchor_sizes, anchor_ratios)
 anchors_exp = np.expand_dims(anchors, axis=0)
 
 id2class = {0: 'Mask', 1: 'NoMask'}
-id2chiclass = {0: '戴了口罩', 1: '未戴口罩!'}
+id2chiclass = {0: 'Wear Mask', 1: 'Not Wear Mask!'}
 colors = ((0, 255, 0), (255, 0 , 0))
 flag_p = 1
 
 def play_sound():
-    file = r'..\utils\test.mp3'  # 注意文件路径,设置自己所需播放的MP3文件
+    file = r'..\utils\test.mp3'  # Pay attention to the file path and set the MP3 file you need to play
     pygame.mixer.init()
-    print("播放音乐1")
+    print("Play Music 1")
     track = pygame.mixer.music.load(file)
     pygame.mixer.music.play()
     time.sleep(10)
@@ -42,7 +42,7 @@ def play_sound():
 
 def puttext_chinese(img, text, point, color):
     pilimg = Image.fromarray(img)
-    draw = ImageDraw.Draw(pilimg)  # 图片上打印文字
+    draw = ImageDraw.Draw(pilimg)  # Print text on the picture
     fontsize = int(min(img.shape[:2])*0.04)
     font = ImageFont.truetype("simhei.ttf", fontsize, encoding="utf-8")
     y = point[1]-font.getsize(text)[1]
@@ -131,17 +131,17 @@ class RecordingThread(threading.Thread):
 
 class VideoCamera(object):
     def __init__(self):
-        # 打开摄像头， 0代表笔记本内置摄像头
+        # Turn on the camera, 0 represents the built-in camera of the notebook
         self.cap = cv2.VideoCapture(0)
 
-        # 初始化视频录制环境
+        # Initialize the video recording environment
         self.is_record = False
         self.out = None
 
-        # 视频录制线程
+        # Video recording thread
         self.recordingThread = None
 
-    # 退出程序释放摄像头
+    # Exit the program to release the camera
     def __del__(self):
         self.cap.release()
 
@@ -154,7 +154,7 @@ class VideoCamera(object):
         if ret:
             ret, jpeg = cv2.imencode('.jpg', frame)
 
-            # 视频录制
+            # Video recording
             if self.is_record:
                 if self.out == None:
                     fourcc = cv2.VideoWriter_fourcc(*'MJPG')
