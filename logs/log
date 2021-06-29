@@ -1676,3 +1676,426 @@ INFO /home/pi/.virtualenvs/cv452/lib/python3.7/site-packages/werkzeug/_internal.
 INFO /home/pi/.virtualenvs/cv452/lib/python3.7/site-packages/werkzeug/_internal.py:225 192.168.28.46 - - [14/Jun/2021 18:50:44] "[36mGET /static/images/thermometer.png HTTP/1.1[0m" 304 -
 INFO /home/pi/.virtualenvs/cv452/lib/python3.7/site-packages/werkzeug/_internal.py:225 192.168.28.46 - - [14/Jun/2021 18:50:44] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
 INFO /home/pi/.virtualenvs/cv452/lib/python3.7/site-packages/werkzeug/_internal.py:225 192.168.28.46 - - [14/Jun/2021 18:50:45] "GET /video_viewer HTTP/1.1" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:22:22] "[32mGET / HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:22:22] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:22:22] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:22:44] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:22:44] "[37mGET /static/images/close.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:22:44] "[37mGET /static/images/bg1.jpg HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:22:44] "[37mGET /static/images/adm.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:22:44] "[37mGET /static/images/pass.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:22:44] "[37mGET /static/images/key.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:22:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:24:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:24:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:24:08] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:24:08] "[37mGET /static/images/thermometer.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 17:24:09] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 18:56:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 18:56:19] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 18:56:20] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:34:37] "[32mGET / HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:34:37] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:34:37] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:34:37] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:34:59] "[32mGET / HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:34:59] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:34:59] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:09] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:09] "[37mGET /static/images/bg1.jpg HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:09] "[37mGET /static/images/close.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:09] "[37mGET /static/images/adm.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:09] "[37mGET /static/images/pass.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:09] "[37mGET /static/images/key.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:40] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:40] "[37mGET /static/images/thermometer.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 21:37:41] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 22:38:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 22:38:53] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 22:39:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 22:39:57] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 23:00:05] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 23:01:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 23:04:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 23:04:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 127.0.0.1 - - [16/Jun/2021 23:04:31] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:10:29] "[32mGET / HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:10:29] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:10:29] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:12:33] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:01] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:01] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:09] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:09] "[37mGET /static/images/bg1.jpg HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:09] "[37mGET /static/images/close.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:09] "[37mGET /static/images/adm.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:09] "[37mGET /static/images/key.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:09] "[37mGET /static/images/pass.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:41] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:42] "[37mGET /static/images/thermometer.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [16/Jun/2021 23:14:42] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:52:24] "[32mGET / HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:52:24] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:52:24] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:52:46] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:52:46] "[37mGET /static/images/bg1.jpg HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:52:46] "[37mGET /static/images/close.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:52:46] "[37mGET /static/images/pass.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:52:46] "[37mGET /static/images/adm.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:52:46] "[37mGET /static/images/key.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:52:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:53:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:53:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:53:30] "[37mGET /static/images/thermometer.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:53:30] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 05:53:31] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 08:00:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 08:00:47] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 08:00:48] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 206-418-312
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:28:39] "[32mGET / HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:28:39] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:28:39] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:01] "[37mGET /static/images/bg1.jpg HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:01] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:01] "[37mGET /static/images/close.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:01] "[37mGET /static/images/pass.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:01] "[37mGET /static/images/adm.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:01] "[37mGET /static/images/key.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:28] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:28] "[37mGET /static/images/thermometer.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:29:30] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 206-418-312
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:34:06] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 09:34:07] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:00] "[32mGET / HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:00] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:00] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:21] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:21] "[37mGET /static/images/bg1.jpg HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:21] "[37mGET /static/images/close.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:21] "[37mGET /static/images/adm.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:21] "[37mGET /static/images/pass.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:21] "[37mGET /static/images/key.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:47] "[37mGET /static/images/thermometer.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:47] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [17/Jun/2021 22:09:47] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 206-418-312
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:11:38] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:11:38] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:11:38] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:11:38] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:11:39] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:11:39] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 206-418-312
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:12:35] "[32mGET / HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:12:35] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:12:35] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:12:56] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:12:56] "[37mGET /static/images/bg1.jpg HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:12:56] "[37mGET /static/images/close.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:12:56] "[37mGET /static/images/adm.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:12:56] "[37mGET /static/images/key.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:12:56] "[37mGET /static/images/pass.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:12:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:04] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:04] "[37mGET /static/images/thermometer.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:05] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:25] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:35] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:36] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:43] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:46] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:13:46] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:14:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:14:29] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:14:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:14:43] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:14:46] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:14:47] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:14:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:14:59] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:15:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:15:03] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:15:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:15:06] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:15:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [27/Jun/2021 22:15:08] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 243-560-087
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:30:17] "[32mGET / HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:30:17] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:30:17] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:30:39] "[37mGET /static/images/bg1.jpg HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:30:39] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:30:39] "[37mGET /static/images/close.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:30:39] "[37mGET /static/images/adm.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:30:39] "[37mGET /static/images/key.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:30:39] "[37mGET /static/images/pass.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:30:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:31:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:31:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:31:13] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:31:14] "[37mGET /static/images/thermometer.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 08:31:15] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:20:00] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:20:01] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:20:01] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:20:01] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:20:01] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:20:01] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:23] "[32mGET / HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:23] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:23] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:48] "[37mGET /static/images/avtar.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:48] "[37mGET /static/images/bg1.jpg HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:48] "[37mGET /static/images/close.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:49] "[37mGET /static/images/adm.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:49] "[37mGET /static/images/pass.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:49] "[37mGET /static/images/key.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:59] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:59] "[37mGET /static/images/thermometer.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:29:59] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:30:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:30:17] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:30:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:30:23] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:30:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:30:27] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:32:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:32:03] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:32:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:32:06] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:32:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:32:08] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:33:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:33:53] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:33:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:33:58] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:33:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:00] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:02] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:03] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:06] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:07] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:09] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:11] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:11] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:34:13] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:39:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:39:20] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:39:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 16:39:23] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 120-498-426
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:22] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:22] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:22] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:22] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:22] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:22] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:28] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:28] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:28] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:28] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:28] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:09:28] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:10:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:10:19] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:12:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:12:41] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:12:44] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:12:44] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:12:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 19:12:47] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 20:57:53] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 20:57:53] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 21:05:53] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [28/Jun/2021 21:05:53] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 146-731-440
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:53:59] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:53:59] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:53:59] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:53:59] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:53:59] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:53:59] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Detected change in '/home/pi/Github/facemask-detection-RaspberryPi/controller/modules/home/views.py', reloading
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 146-731-440
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:43] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:43] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:43] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:43] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:43] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:43] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:46] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:47] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:47] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:47] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:47] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 07:57:47] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 146-731-440
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 08:17:55] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 08:17:55] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 08:17:55] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 08:17:55] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 08:17:55] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 08:17:55] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 146-731-440
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:53:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:53:26] "[37mGET /static/css/style1.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:53:26] "[37mGET /static/images/thermometer.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:53:27] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:14] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:17] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:19] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:22] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:24] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 10:58:25] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 13:44:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 13:44:31] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 13:44:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 13:44:34] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 146-731-440
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:36] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:36] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:36] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:36] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:37] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:37] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:43] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:43] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:43] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:43] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:43] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:08:43] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:09:04] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:09:05] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:10:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 14:10:09] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 146-731-440
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 15:30:19] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 15:30:19] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 15:30:19] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 15:30:19] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 15:30:19] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 15:30:19] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 15:30:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 15:30:51] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88  * Debugger PIN: 146-731-440
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 15:32:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO /usr/lib/python3/dist-packages/werkzeug/_internal.py:88 172.16.250.2 - - [29/Jun/2021 15:32:41] "[37mGET /video_viewer HTTP/1.1[0m" 200 -
