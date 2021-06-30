@@ -19,6 +19,18 @@ feature_map_sizes = [[33, 33], [17, 17], [9, 9], [5, 5], [3, 3]]
 anchor_sizes = [[0.04, 0.056], [0.08, 0.11], [0.16, 0.22], [0.32, 0.45], [0.64, 0.72]]
 anchor_ratios = [[1, 0.62, 0.42]] * 5
 
+# used to record the time when we processed last frame
+start_time = 0
+
+# used to record the time at which we processed current frame
+end_time = 0
+
+#Calculate and store FPS
+fps = 0
+real_fps = 0
+num_frames = 10
+index = 0
+
 # generate anchors
 anchors = generate_anchors(feature_map_sizes, anchor_sizes, anchor_ratios)
 
@@ -58,7 +70,7 @@ def getOutputsNames(net):
     # Get the names of the output layers, i.e. the layers with unconnected outputs
     return [layersNames[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 
-def inference(image, conf_thresh=0.5, iou_thresh=0.4, target_shape=(160, 160), draw_result=True, chinese=True):
+def inference(image, conf_thresh=0.5, iou_thresh=0.4, target_shape=(160, 160), draw_result=True, chinese=False):
     height, width, _ = image.shape
     blob = cv2.dnn.blobFromImage(image, scalefactor=1/255.0, size=target_shape)
     net=cv2.dnn.readNet('models/face_mask_detection.caffemodel', 'models/face_mask_detection.prototxt')
@@ -79,6 +91,7 @@ def inference(image, conf_thresh=0.5, iou_thresh=0.4, target_shape=(160, 160), d
         conf = float(bbox_max_scores[idx])
         class_id = bbox_max_score_classes[idx]
         bbox = y_bboxes[idx]
+        
         # clip the coordinate, avoid the value exceed the image boundary.
         xmin = max(0, int(bbox[0] * width))
         ymin = max(0, int(bbox[1] * height))
@@ -97,7 +110,8 @@ def inference(image, conf_thresh=0.5, iou_thresh=0.4, target_shape=(160, 160), d
             if chinese:
                 image = puttext_chinese(image, id2chiclass[class_id], (xmin, ymin), colors[class_id])  ###puttext_chinese
             else:
-                cv2.putText(image, "%s: %.2f" % (id2class[class_id], conf), (xmin + 2, ymin - 2),
+                text = "%s: %.2f, FPS: %.2f" % (id2class[class_id], conf, real_fps)
+                cv2.putText(image, text, (xmin + 2, ymin - 2),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.8, colors[class_id])
     return image
 
@@ -118,6 +132,7 @@ class RecordingThread(threading.Thread):
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             frame = inference(frame, target_shape=(260, 260), conf_thresh=0.5)
             frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+
             if ret:
                 self.out.write(frame)
 
@@ -130,6 +145,10 @@ class RecordingThread(threading.Thread):
         self.out.release()
 
 class VideoCamera(object):
+    num_frames = 30
+    index = 0
+    start_time = 0
+    end_time = 0
     def __init__(self):
         # Turn on the camera, 0 represents the built-in camera of the notebook
         self.cap = cv2.VideoCapture(0)
@@ -151,6 +170,20 @@ class VideoCamera(object):
         frame = inference(frame, target_shape=(260, 260), conf_thresh=0.5)
         frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
 
+        global fps
+        fps = self.cap.get(cv2.CAP_PROP_FPS)
+        #print("Frames per second using video.get(cv2.CAP_PROP_FPS) : {0}".format(fps))  
+        global real_fps, num_frames, index, start_time, end_time
+        index += 1
+        if(index >= num_frames):
+            index = 0
+            end_time = time.time()
+            seconds = end_time - start_time
+            start_time = end_time
+            real_fps = num_frames/seconds
+            #print("Real frames per second after calculated FaceMask : {0}".format(real_fps))
+
+
         if ret:
             ret, jpeg = cv2.imencode('.jpg', frame)
 
@@ -164,6 +197,7 @@ class VideoCamera(object):
                 frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
                 frame = inference(frame, target_shape=(260, 260), conf_thresh=0.5)
                 frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+                
                 if ret:
                     self.out.write(frame)
             else:
