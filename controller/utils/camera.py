@@ -91,6 +91,7 @@ def inference(image, conf_thresh=0.5, iou_thresh=0.4, target_shape=(160, 160), d
         conf = float(bbox_max_scores[idx])
         class_id = bbox_max_score_classes[idx]
         bbox = y_bboxes[idx]
+        
         # clip the coordinate, avoid the value exceed the image boundary.
         xmin = max(0, int(bbox[0] * width))
         ymin = max(0, int(bbox[1] * height))
@@ -132,6 +133,7 @@ class RecordingThread(threading.Thread):
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             frame = inference(frame, target_shape=(260, 260), conf_thresh=0.5)
             frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+
             if ret:
                 self.out.write(frame)
 
@@ -144,6 +146,10 @@ class RecordingThread(threading.Thread):
         self.out.release()
 
 class VideoCamera(object):
+    num_frames = 30
+    index = 0
+    start_time = 0
+    end_time = 0
     def __init__(self):
         # Turn on the camera, 0 represents the built-in camera of the notebook
         self.cap = cv2.VideoCapture(0)
@@ -191,6 +197,7 @@ class VideoCamera(object):
                 frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
                 frame = inference(frame, target_shape=(260, 260), conf_thresh=0.5)
                 frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+                
                 if ret:
                     self.out.write(frame)
             else:
