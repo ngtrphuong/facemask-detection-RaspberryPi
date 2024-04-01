@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 import numpy as np
 
-def decode_bbox(anchors, raw_outputs, variances=[0.1, 0.1, 0.2, 0.2]):
+def decode_bbox(anchors, raw_outputs, variances=None):
     '''
     Decode the actual bbox according to the anchors.
     the anchor value order is:[xmin,ymin, xmax, ymax]
@@ -10,6 +10,7 @@ def decode_bbox(anchors, raw_outputs, variances=[0.1, 0.1, 0.2, 0.2]):
     :param variances: list of float, default=[0.1, 0.1, 0.2, 0.2]
     :return:
     '''
+    variances = [0.1, 0.1, 0.2, 0.2] if variances is None else variances
     anchor_centers_x = (anchors[:, :, 0:1] + anchors[:, :, 2:3]) / 2
     anchor_centers_y = (anchors[:, :, 1:2] + anchors[:, :, 3:]) / 2
     anchors_w = anchors[:, :, 2:3] - anchors[:, :, 0:1]
